@@ -29,6 +29,6 @@ func factorial(of num: Int) -> Int {
     }
 }
 
-let f = 6
+let f = 10
 let result = factorial(of: f)
 print("The factorial of \(f) is \(result)")
