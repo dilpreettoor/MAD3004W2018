@@ -8,3 +8,16 @@
 
 import Foundation
 
+enum SpeedLimit: Error
+{
+    case declined
+    case approved
+}
+
+struct ticketAppeal
+{
+    var speed: Double
+    var date: Double
+    var passenger: Bool
+    var status: String
+}

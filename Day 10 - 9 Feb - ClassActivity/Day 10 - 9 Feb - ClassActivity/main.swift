@@ -10,4 +10,13 @@ import Foundation
 
 //print("Hello, World!")
 
+var tckreq = ticket()
+do
+{
+    try tckreq.makeAppeal(ticketNo: "T166")
+}
 
+catch SpeedLimit.declined
+{
+ print("Declined")
+}
